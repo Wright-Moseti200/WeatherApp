@@ -1,0 +1,154 @@
+body
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    animation-duration: 2s;
+}
+
+.box
+{
+    background: linear-gradient(120deg,lightgreen,skyblue);
+    height:620px;
+    width:480px
+}
+
+.input-area
+{
+
+    width:390px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:15px;
+    top:4px;
+}
+
+input
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:18px;
+    border:none;
+    outline:none;
+    width:300px;
+    border-radius: 28px;
+}
+
+
+button
+{
+    cursor: pointer;
+    outline:none;
+    border:none;
+    width:59px;
+    border-radius: 50%;
+}
+
+.weather-icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1
+{
+    height:180px
+}
+
+.temp
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.temp-num
+{
+    color:white;
+    font-size: 70px;
+    font-weight:200px;
+}
+
+.city
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.city-name
+{
+    color:white;
+    font-size: 40px;
+    font-weight: 95px;
+}
+
+p
+{
+    color:white;
+}
+
+.humidity-wind
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidty
+{
+    display:grid;
+    grid-template-areas:"item1 item2" "item1 item3" ;
+    gap: 15px;
+}
+
+.img2
+{
+    grid-area: item1;
+}
+
+.percentage
+{
+    font-size: 20px;
+    grid-area: item2;
+}
+
+.humidity-name
+{
+    font-size: 20px;
+    grid-area:item3 ;
+}
+
+.wind-speed
+{
+    display:grid;
+    grid-template-areas:"item1 item2" "item1 item3" ;
+    justify-content: space-around;
+    gap:15px;
+}
+
+.img3
+{
+    grid-area: item1;
+}
+
+.speed
+{
+    font-size: 20px;
+    grid-area: item2;
+
+}
+
+.wind-name
+{
+    
+    font-size: 20px;
+    grid-area:item3;
+}
+
+
